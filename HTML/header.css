@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Enriqueta:wght@400;500;600;700&family=Knewave&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+.lt{
+    margin-left: 60px;
+    text-align: start;
+    margin-right: 45rem;
+}
+.product{
+    justify-content: center;
+    display: flex;
+    height: 600px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.container {
+    background: linear-gradient(to bottom, #67b2de, #ffffff);
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    width: 200px;
+    overflow: hidden; /* Ensures no content overflows outside the container */
+}
+.container button{
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+    margin-left: 38px;
+    border-radius: 50px;
+}
+  
+.details {
+    
+    position: relative;
+    z-index: 1;
+    color: #000000; /* Makes the text stand out if the background is dark */
+    text-align: center;
+    line-height: 200px;
+}
+  
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    transition: opacity 0.5s ease; /* Smooth transition for the hover effect */
+    opacity: 1; /* Fully visible by default */
+}
+  
+.container:hover .cover-image {
+    opacity: 0; /* Makes the image transparent on hover */
+}
+  
+.page>div{
+    margin-left: 40px;
+}
+.cart{
+    background: linear-gradient(to bottom, #67b2de, #ffffff);
+    padding: 10px;
+    border-left: 1px solid black;
+    text-align: end;
+    border-top-left-radius: 20px;
+}
+
+
+
+

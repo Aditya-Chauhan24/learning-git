@@ -1,0 +1,17 @@
+#header{
+    background-color: lightblue;
+}
+#content{
+    padding: 20px;
+    font-size: 18px;
+}
+#footer{
+    color: darkgrey;
+}
+
+.box{
+    background-color: yellow;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}

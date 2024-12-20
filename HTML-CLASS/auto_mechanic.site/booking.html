@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+<style>
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 800px;
+    }
+    .frame{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+</style>
+<body>
+    <a href="home.htm"><h1>AutoMob-Mechanic</h1></a><br>
+    <div class="navbar">
+        <a href="home.htm">Home</a> |
+        <a href="service.htm">Services</a>|
+        <a href="booking.html">Booking</a>|
+        <a href="#">contact@automob.co.in</a>|
+        <a>999 999 9999</a><i class="fa-solid fa-tty"></i><br>
+    </div>
+    <div class="frame"><br><br>
+        <h1>Book Your Service</h1><br>
+        <form>
+            Name:<input type="text" placeholder="john Daub" required><br><br>
+            Email Id:<input type="email" placeholder="john@yahoo.com" required><br><br>
+            Phone Number:<select required>
+                <option>+213</option>
+                <option>+91</option>
+                <option>+244</option>
+                <option>+61</option>
+            </select>
+            <input type="number" maxlength="10" placeholder="9125663199" required><br><br>
+            Select Service: <select required>
+                <option>Preventive Maintenance Service</option>
+                <option>Body Repair Service</option>
+                <option>Car Care Service</option>
+            </select><br><br>
+            Car Make:<input type="text" placeholder="Toyota,suzuki...."><br><br>
+            Car Modal:<input type="text" placeholder="Alto,Innova...."><br><br>
+            <label for="fuel">Fuel type:</label>
+            <input type="radio" id="xyz" name="fuel" value="p">Petrol
+            <input type="radio" id="cds" name="fuel" value="d">Diesel
+            <input type="radio" id="hfd" name="fuel" value="l">LPG
+            <input type="radio" id="abc" name="fuel" value="o">Others<br><br> 
+            Kilometer Ran:<input type="number" placeholder="...km"><br><br>
+            <button type="button" onclick="appointment()">Schedule an Appointment</button>
+        </form><br><br><br>
+    </div>
+    Copyright &#169 2020AutoMob-Mechanic.All Rights Reserved.
+    <script>
+        function appointment(){
+            window.location.href="appointment.html"
+        }
+    </script>
+    
+</body>
+</html>

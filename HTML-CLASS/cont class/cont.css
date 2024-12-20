@@ -1,0 +1,52 @@
+
+.container{
+    height:500px;
+    width:500px;
+    background-color: blue;
+    border:solid red;
+ }
+ .box1{
+    height:100px;
+    width:500px;
+    background-color:blue;
+ }
+ .box2{
+    height:300px;
+    width:500px;
+    background-color:pink;
+ }
+ .b11{
+    height:150px;
+    width:250px;
+    background-color: aqua;
+    float:left;
+ }
+ .b12{
+    height:150px;
+    width:250px;
+    background-color: bisque;
+    float:left;
+ }
+.b21{
+    height:100px;
+    width:250px;
+    background-color: burlywood;
+    float:left;
+ }
+.b22{
+    height:100px;
+    width:250px;
+    background-color:coral;
+    float:left;
+ }
+.b23{
+    height:100px;
+    width:250px;
+    background-color:chartreuse;
+    float:left;
+ }
+ .box3{
+    height:100px;
+    width:500px;
+    background-color: blueviolet;
+ }

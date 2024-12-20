@@ -1,0 +1,21 @@
+div{
+    
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+    background-color: aqua;
+}
+main{
+    height: 580px;
+}
+.button{
+    width: 80px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: azure;
+}
+form{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}

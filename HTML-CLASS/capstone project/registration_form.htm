@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<style>
+    .about{
+        height: 100px;
+        width: 600px;
+    }
+</style>
+<body>
+    <div>
+        <a> <img src="Friends.PNG" alt="frendship zone"></a>
+    </div>
+    <div> <center><h1>Friendship Zone</h1></center></div>
+    <h2>Add your details to register</h2>
+    <form>
+        Name: <input type="text" placeholder="enter your name"><br><br>
+        Email:<input type="email"><br><br>
+        Age:<input type="number"><br><br>
+        Birth Day:<input type="date"><br><br>
+        <label for="Gender">Gender:</label>
+            <input type="radio" id="xyz" name="Gender" value="M">M
+            <input type="radio" id="cds" name="Gender" value="F">F<br><br>
+        About:<input type="text" class="about"><br><br>
+        Phone:<input type="number"><br><br><br><br>
+        <label for="interest">Intereste in:</label>
+        <input type="radio" id="xyz" name="interest" value="f">Friendship
+        <input type="radio" id="cds" name="interest" value="d">Dating
+
+        <input type="submit" value="Choose Files">No file chosen<br><br>
+        <button type="button" onclick="registerUser()">Register</button>
+        <button type="button" onclick="registerAdmin()">Register as Admin</button>
+    </form>
+
+    <script>
+        function registerUser() {
+            window.location.href = "registration_confirmation.htm";
+        }
+        
+        function registerAdmin() {
+            window.location.href = 'registration_confirmation_for_admin.htm'
+        }
+    </script>
+</body>
+</html>

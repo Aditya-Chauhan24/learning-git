@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+</head>
+<style>
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 800px;
+    }
+    .frame{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .address{
+        width: 400px;
+            height: 100px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 0 10px 10px 10px; 
+            display: flex;
+            align-items: flex-end;
+            text-align: left; 
+            box-sizing: border-box;
+    }
+</style>
+<body>
+    <a href="home.htm"><h1>AutoMob-Mechanic</h1></a><br>
+    <div class="navbar">
+        <a href="home.htm">Home</a> |
+        <a href="service.htm">Services</a>|
+        <a href="booking.html">Booking</a>|
+        <a href="#">contact@automob.co.in</a>|
+        <a>999 999 9999</a><i class="fa-solid fa-tty"></i><br>
+    </div>
+    <div class="frame"><br><br>
+        <h1>Schedule Your Appointment</h1><br>
+        <form>
+            Appointment Date:<input type="date" required><br><br>
+            Address:<input type="text" class="address" required><br><br>
+            City:<input type="text" placeholder="Pune, Mumbai..." required><br><br>
+            State:<input type="text" placeholder="Kerala, Maharastra.." required><br><br>
+            Send Notification:<input type="checkbox">Email
+            <input type="checkbox">SMS<br><br><br>
+            <button type="button" onclick="book()">Book</button>
+        </form><br><br><br>
+    </div>
+    Copyright &#169 2020AutoMob-Mechanic.All Rights Reserved.
+    <script>
+        function book(){
+            window.location.href="booking-success.html"
+        }
+    </script>
+    
+</body>
+</html>

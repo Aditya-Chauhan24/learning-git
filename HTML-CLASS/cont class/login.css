@@ -1,0 +1,18 @@
+.container{
+    height: 600px;
+    background-color: blue;
+}
+.title{
+    display: center;
+    margin: 2px 400px 5px;
+    background-color: aliceblue;
+}
+.new{
+    background-color: aliceblue;
+    display: q;
+}
+.form{
+    height: 200px;
+    margin: 20px 400px 5px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 800px;
+    }
+    .frame{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    img{
+        height: 400px;
+    }
+</style>
+<body>
+    <a href="home.htm"><h1>AutoMob-Mechanic</h1></a><br>
+    <div class="navbar">
+        <a href="home.htm">Home</a> |
+        <a href="service.htm">Services</a>|
+        <a href="booking.html">Booking</a>|
+        <a href="#">contact@automob.co.in</a>|
+        <a>999 999 9999</a><i class="fa-solid fa-tty"></i><br>
+    </div>
+    <div class="frame">
+        <h1>About Us</h1><br>
+        <img src="home.jpg"><br>
+       <p>"One stop solution to get your car repaired and serviced".</p>
+       <p>At AutoMob-Mechanic, we aim to make the car repair and service experience straightforward by providing service for repairing,servicing and maintaining -leading our expertise in all forms. You can tell us the service and book an appointment with us on your convinent date. Then,our representative will take care of everything on their own.
+       </p>
+       <button type="button" onclick="Explore()">Explore More</button><br><br>
+    </div>
+    Copyright &#169 2020AutoMob-Mechanic.All Rights Reserved.
+
+    <script>
+        function Explore() {
+            window.location.href = 'service.htm'
+        }
+    </script>
+</body>
+</html>

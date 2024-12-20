@@ -1,1 +1,1 @@
-This is a web development based e-commerce site Pristine 
+This is a web development class notes by Akash Verma

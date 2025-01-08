@@ -1,0 +1,49 @@
+/* Hide the default radio button */
+input[type="radio"] {
+    display: none;
+}
+
+/* Style the container for the custom radio button */
+.custom-radio {
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Create the custom radio circle */
+.radio-circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    margin-right: 10px;
+    position: relative;
+    transition: border-color 0.3s ease;
+}
+
+/* Add the inner circle for the selected state */
+.radio-circle::after {
+    content: '';
+    background-color: #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Change the appearance when the radio button is selected */
+input[type="radio"]:checked + .radio-circle {
+    border-color: #007BFF;
+}
+
+input[type="radio"]:checked + .radio-circle::after {
+    opacity: 1;
+    background-color: #007BFF;
+}
+
+/* Hover effect */
+.custom-radio:hover .radio-circle {
+    border-color: #007BFF;
+}
